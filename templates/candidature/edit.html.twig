@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Candidature{% endblock %}
+
+{% block body %}
+<div class="titre">
+    <h1>Modification candidature</h1>
+</div>
+
+    {{ include('candidature/_form.html.twig', {'button_label': 'Modifier'}) }}
+
+    <a href="{{ path('app_candidature_index') }}" class="btn btn-primary mt-3">Retour</a>
+
+{% endblock %}

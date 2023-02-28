@@ -1,0 +1,30 @@
+body{
+    background-color: #1e2761;
+    color:  #79a7d3;
+}
+
+.titre{
+    text-align: center;
+    margin-top: 1%;
+}
+
+.table{
+    background-color: #79a7d3;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.bouton{
+    text-align: center;
+}
+
+.formulaire {
+    background-color: #6883bc;
+    color: #1e2761;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+    width: 50%;
+    padding:4%
+}
